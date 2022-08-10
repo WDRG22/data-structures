@@ -1,5 +1,5 @@
 from Node import Node
-        
+     
 class Stack:
     
     def __init__(self, head=None):
@@ -48,12 +48,12 @@ class Stack:
 # TESTING
 greek = [
         "alpha", "beta", "gamma", "delta", "epsilon",
-         "zeta", "eta", "theta", "iota", "kappa", 
-         "lambda", "mu", "nu", "xi", "omicron", 
-         "pi", "rho", "sigma", "tau", "upsilon",
-         "phi", "chi", "psi", "omega"
+        "zeta", "eta", "theta", "iota", "kappa", 
+        "lambda", "mu", "nu", "xi", "omicron", 
+        "pi", "rho", "sigma", "tau", "upsilon",
+        "phi", "chi", "psi", "omega"
         ]
-greek.reverse()
+
 myStack = Stack()
 
 for letter in greek:
