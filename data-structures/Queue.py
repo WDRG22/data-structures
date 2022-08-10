@@ -1,4 +1,4 @@
-from Node import Node
+from node import Node
 
 class Queue:
     # A queue is a collection of data maintained in a sequence that can be modified by the addition of data at one end and the removal  from the other end
