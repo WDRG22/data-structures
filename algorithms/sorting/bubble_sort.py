@@ -12,7 +12,6 @@ def bubble_sort(arr: list) -> list:
 
 
 # TESTING
-
 arr = [6,5,3,1,3,4,32,0,-3]
 print(bubble_sort(arr))
             
