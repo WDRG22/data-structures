@@ -7,11 +7,15 @@ class Stack:
         self.count = 0
 
     def push(self, data):
+        # Push new data onto top of stack
+        
         new_node = Node(data, self.head)
         self.head = new_node
         self.count += 1
         
-    def pop(self):        
+    def pop(self):
+        # Pop top element off of stack and return it
+         
         if self.head is None:
             print("Stack empty")
             return 
@@ -22,12 +26,16 @@ class Stack:
         return data
     
     def peek(self):
+        # Return current top element
+        
         if self.head is None:
             print("Stack empty")
         
         return self.head.data
         
     def show(self):
+        # Print entire stack
+        
         if self.head is None:
             print("Stack empty")
             return
@@ -39,9 +47,13 @@ class Stack:
         print("None")
         
     def length(self):
+        # Return stack size
+        
             return self.count
         
     def isEmpty(self):
+        # Return if stack is empty
+        
         return self.count == 0
     
     

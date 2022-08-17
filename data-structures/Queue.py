@@ -38,6 +38,7 @@ class Queue:
         
     def show(self):
         # Print all elements of the queue
+        
         if self.front is None:
             return
         
